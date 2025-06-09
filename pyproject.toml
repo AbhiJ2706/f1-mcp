@@ -24,7 +24,9 @@ classifiers = [
   "Programming Language :: Python :: Implementation :: CPython",
   "Programming Language :: Python :: Implementation :: PyPy",
 ]
-dependencies = []
+dependencies = [
+    "fastmcp","fastf1","transformers","torch"
+]
 
 [project.urls]
 Documentation = "https://github.com/unknown/f1-mcp#readme"
